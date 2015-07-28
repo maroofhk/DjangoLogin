@@ -11,4 +11,5 @@ class IOTUser(models.Model):
 	user_type = models.CharField(max_length=30, choices=user_choices)
 
 	# def __str__(self):
+	# 	return self.usernames
 	# 	return '{l}, {f}'.format(l=self.last_name, f=self.first_name)
